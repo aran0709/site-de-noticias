@@ -75,7 +75,55 @@ ul{
 }
 
 #conteiner{
-    width: 700px;
+    width: 750px;
     margin: 0px auto;
+   
     
+}
+
+
+#conteudo{
+    background-color: #f5f5f5;
+
+    margin-top: 60px;
+}
+
+#primario{
+    width: 270px;
+    background-color: blue;
+    margin: 0px 0px 20px 195px;
+    float: left;
+}
+
+#secundario{
+    width: 270px;
+    background-color: green;
+    float: left;
+
+    margin:  0px 0px 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    background-color:yellow;
+    float: left;
+
+    margin: 0px 0px 20px -750px;
+}
+
+#conteiner-rodape{
+    clear: both;
+
+    background-color: #294c71;
+    padding: 20px;
+
+    text-align: center;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+
+    font-weight: bold;
 }
