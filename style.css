@@ -177,8 +177,44 @@ input{
     background-color: #b10333;
     border: 2px solid #870529;
 }
+/*fornmatação de imagens*/
 
+.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
 
+/*formatando cabeçalhos*/
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+#primario  h3{
+    display: inline-block;
+    background-color: #de003e;
+    color: white;
+    margin-bottom: 5px;
+}
+#primario a{
+    display: inline-block;
+    color: rgba(250, 52, 52, 0.774);
+    margin-top: 5px;
+}
+
+#secundario  h3{
+    display: inline-block;
+    background-color: #de003e;
+    color: black;
+    margin-bottom: 5px;
+}
+#secundario a{
+    display: inline-block;
+    color: rgba(250, 52, 52, 0.774);
+    margin-top: 5px;
+}
 /*rodape*/
 #conteiner-rodape{
     clear: both;
