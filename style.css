@@ -198,10 +198,13 @@ h3{
     color: white;
     margin-bottom: 5px;
 }
-#primario a{
+#primario  a{
     display: inline-block;
     color: rgba(250, 52, 52, 0.774);
     margin-top: 5px;
+}
+#primario a:hover{
+    font-weight: bold;
 }
 
 #secundario  h3{
@@ -210,10 +213,50 @@ h3{
     color: black;
     margin-bottom: 5px;
 }
-#secundario a{
+#secundario  a{
     display: inline-block;
     color: rgba(250, 52, 52, 0.774);
     margin-top: 5px;
+}
+#secundario a:hover{
+    font-weight: bold;
+}
+/*lista noticias*/
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+}
+#lista-noticias li a h3 {
+    background: none;
+    font-size: 0.9em;
+    color: skyblue;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+#lista-noticias li a p {
+    
+    font-size: 0.9em;
+    text-align: justify;
+}
+#lista-noticias img{
+    width: 80px;
+}
+
+#lista-noticias li:hover{
+    background-color: #a1a1a123;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.288);
+    transition: 0.3s;
 }
 /*rodape*/
 #conteiner-rodape{
